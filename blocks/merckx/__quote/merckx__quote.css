@@ -1,0 +1,17 @@
+.merckx__quote {
+  width: 100%;
+  max-width: 470px;
+
+  font-weight: 600;
+  font-size: clamp(23px, 5vw, 34px);
+  line-height: clamp(29px, 6vw, 44px);
+  letter-spacing: -.5px;
+
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .merckx__quote {
+    max-width: none;
+  }
+}

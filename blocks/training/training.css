@@ -1,0 +1,59 @@
+.training {
+  max-width: 1200px;
+
+  display: grid;
+  grid-template-columns: minmax(284px, 460px) minmax(284px, 580px);
+  grid-template-rows: 60px auto 28px;
+  column-gap: 160px;
+
+  position: relative;
+
+  margin: 0 auto;
+  padding: 150px 120px 120px;
+}
+
+@media screen and (max-width: 1280px) {
+  .training {
+    max-width: 1280px;
+
+    column-gap: 80px;
+
+    padding: 80px 80px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .training {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    padding: 80px 60px 60px;
+  }
+
+  .training::after {
+    content: "";
+    width: calc(100% - 120px);
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .training {
+    padding: 80px 18px 60px;
+  }
+
+  .training::after {
+    content: "";
+    width: calc(100% - 36px);
+    height: 1px;
+    background: #707070;
+    position: absolute;
+    top: 40px;
+    left: 18px;
+  }
+}

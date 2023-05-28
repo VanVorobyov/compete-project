@@ -1,0 +1,41 @@
+.lead__picture-container {
+  width: 100%;
+  max-width: 200px;
+  min-height: 777px;
+
+  position: absolute;
+
+  top: 0;
+  left: 45.75%;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__picture-container {
+    min-height: 727px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .lead__picture-container {
+    left: 44.75%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__picture-container {
+    min-height: 877px;
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__picture-container {
+    min-height: 677px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .lead__picture-container {
+    left: 18px;
+  }
+}

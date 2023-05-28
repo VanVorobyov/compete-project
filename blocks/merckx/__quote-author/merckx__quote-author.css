@@ -1,0 +1,14 @@
+.merckx__quote-author {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+
+  margin: 0;
+}
+
+@media screen and (max-width: 465px) {
+  .merckx__quote-author {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

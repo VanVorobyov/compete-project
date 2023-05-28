@@ -1,0 +1,50 @@
+.lead__picture {
+  max-width: 440px;
+  aspect-ratio: 22 / 15;
+  box-sizing: border-box;
+
+  background-color: #f4f4f4;
+  object-fit: contain;
+  object-position: center;
+
+  position: sticky;
+
+  top: 392px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+  display: block;
+
+  padding: 20px 50px;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__picture {
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .lead__picture {
+    top: 392px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .lead__picture {
+    max-width: 284px;
+
+    position: absolute;
+
+    top: 46%;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .lead__picture {
+    max-width: 234px;
+  }
+}

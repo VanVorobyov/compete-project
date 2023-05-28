@@ -1,0 +1,13 @@
+.header__menu {
+  width: 100%;
+  min-height: 74px;
+
+  background-color: #333333;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+}
